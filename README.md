@@ -13,3 +13,5 @@ This repo is created for demonstration of devops activities
 #### 5. Generate Token Key from GitHub (Profile -> Settings -> Developer Settings -> PAT -> Tokens)
     $ git push origin master
         Git Hub UN and Token Key
+
+#### 6. Goto GitHub and check the latest changes / verify the commits also
