@@ -15,3 +15,10 @@ This repo is created for demonstration of devops activities
         Git Hub UN and Token Key
 
 #### 6. Goto GitHub and check the latest changes / verify the commits also
+
+#### 7. How to resolve Conflicts
+    # pull the code from remote repo
+    $ git mergetool (Open the file in vimdiff)
+    # edit the conflict file (4th editor) and save it
+    # commit and push the file to remote repo
+
