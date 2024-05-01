@@ -22,3 +22,41 @@ This repo is created for demonstration of devops activities
     # edit the conflict file (4th editor) and save it
     # commit and push the file to remote repo
 
+#### Directory Structure:
+
+##### - Creating a Branch
+		Ex: Master -> Dev
+		    Dev -> Feature
+
+        Formula:
+            Src -> Dest
+                $ git checkout Src
+                $ git branch dest
+
+##### - Committing to Branch
+		Ex: commit to Dev
+
+        Formula:
+            - Identify the branch to commit
+            - $ git checkout branch_name
+            - $ git commit 
+
+##### - Merging Branches
+		Ex: Feature -> Dev
+		    Post Release:
+			- Release -> Master
+			- Release -> Dev
+  
+        - Formula:
+            -  Src -> Dest (Feature -> dev)
+                $ git checkout dest_branch
+                $ git merge src_branch
+
+##### - Backup of Branches (Master/main)
+		- Tagging
+            Ex: 'main' has to take backup
+                'feature' has to take backup
+
+        - Formula:
+          - $ git checkout branch_name
+          - $ git tag tag_name
