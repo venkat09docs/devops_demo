@@ -60,3 +60,9 @@ This repo is created for demonstration of devops activities
         - Formula:
           - $ git checkout branch_name
           - $ git tag tag_name
+
+#### Diff Command:
+	- To check the diff bet workspace file with Local repo (git diff)
+	- To check the diff bet staging files with local repo (git diff --staged)
+	- To check the diff bet current commit comparing with previous commit (git show commit_id)
+	- To check the diff bet branches (git diff branch1 branch2)
