@@ -66,3 +66,13 @@ This repo is created for demonstration of devops activities
 	- To check the diff bet staging files with local repo (git diff --staged)
 	- To check the diff bet current commit comparing with previous commit (git show commit_id)
 	- To check the diff bet branches (git diff branch1 branch2)
+
+#### Stashing:
+
+	Work Flow: Workspace -> staging -> Local Repo -> Remote Repo
+
+	Work Flow 2: Workspace -> staging -> Stashing -> Local Repo -> Remote Repo
+
+	$ git stash
+	$ git stash list
+	$ git stash pop
